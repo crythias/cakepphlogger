@@ -1,0 +1,50 @@
+2013-12-23 20:41:33 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/pphcake/app/Config/bootstrap.php(73): CakePlugin::load('DebugKit')
+#1 /var/www/frameworks/cakephp/2.4/lib/Cake/Core/Configure.php(92): include('/var/www/pphcak...')
+#2 /var/www/frameworks/cakephp/2.4/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/pphcake/app/webroot/index.php(94): include('/var/www/framew...')
+#4 {main}
+2013-12-23 20:42:42 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/pphcake/app/Config/bootstrap.php(73): CakePlugin::load('DebugKit')
+#1 /var/www/frameworks/cakephp/2.4/lib/Cake/Core/Configure.php(92): include('/var/www/pphcak...')
+#2 /var/www/frameworks/cakephp/2.4/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/pphcake/app/webroot/index.php(94): include('/var/www/framew...')
+#4 {main}
+2013-12-23 20:46:01 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/pphcake/app/Config/bootstrap.php(76): CakePlugin::load('DebugKit')
+#1 /var/www/frameworks/cakephp/2.4/lib/Cake/Core/Configure.php(92): include('/var/www/pphcak...')
+#2 /var/www/frameworks/cakephp/2.4/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/pphcake/app/webroot/index.php(94): include('/var/www/framew...')
+#4 {main}
+2013-12-23 20:47:00 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/pphcake/app/Config/bootstrap.php(76): CakePlugin::load('DebugKit')
+#1 /var/www/frameworks/cakephp/2.4/lib/Cake/Core/Configure.php(92): include('/var/www/pphcak...')
+#2 /var/www/frameworks/cakephp/2.4/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/pphcake/app/webroot/index.php(94): include('/var/www/framew...')
+#4 {main}
+2013-12-23 20:48:34 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/pphcake/app/Config/bootstrap.php(76): CakePlugin::load('DebugKit')
+#1 /var/www/frameworks/cakephp/2.4/lib/Cake/Core/Configure.php(92): include('/var/www/pphcak...')
+#2 /var/www/frameworks/cakephp/2.4/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/pphcake/app/webroot/index.php(94): include('/var/www/framew...')
+#4 {main}
