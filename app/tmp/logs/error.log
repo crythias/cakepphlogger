@@ -48,3 +48,149 @@ Stack Trace:
 #2 /var/www/frameworks/cakephp/2.4/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
 #3 /var/www/pphcake/app/webroot/index.php(94): include('/var/www/framew...')
 #4 {main}
+2013-12-29 16:34:49 Error: [MissingViewException] View file "/var/www/pphcake/app/View/Pages/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/pphcake/app/View/Pages/index.ctp',
+)
+Request URL: /pphcake/pages/index
+Stack Trace:
+#0 /var/www/frameworks/cakephp/2.4/lib/Cake/View/View.php(457): View->_getViewFileName('index')
+#1 /var/www/frameworks/cakephp/2.4/lib/Cake/Controller/Controller.php(952): View->render('index', NULL)
+#2 /var/www/pphcake/app/Controller/PagesController.php(69): Controller->render('index')
+#3 [internal function]: PagesController->display('index')
+#4 /var/www/frameworks/cakephp/2.4/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/frameworks/cakephp/2.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/frameworks/cakephp/2.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-12-29 16:35:16 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /pphcake/index
+Stack Trace:
+#0 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-29 16:39:43 Error: Fatal Error (1): Call to undefined function allow() in [/var/www/pphcake/app/Controller/AppController.php, line 51]
+2013-12-29 16:39:43 Error: [FatalErrorException] Call to undefined function allow()
+Request URL: /pphcake/
+Stack Trace:
+#0 /var/www/frameworks/cakephp/2.4/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/pphcak...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/pphcak...', 51, Array)
+#2 /var/www/frameworks/cakephp/2.4/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/pphcak...', 51, Array)
+#3 /var/www/frameworks/cakephp/2.4/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-29 16:42:37 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pphcake/users/login
+Stack Trace:
+#0 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-29 16:43:32 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pphcake/users/login
+Stack Trace:
+#0 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-29 16:45:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pphcake/users/login
+Stack Trace:
+#0 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-29 16:47:27 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pphcake/users/login
+Stack Trace:
+#0 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-29 16:50:41 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pphcake/users/login
+Stack Trace:
+#0 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-29 16:50:41 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/var/www/pphcake/app/Controller/AppController.php, line 39]
+2013-12-29 16:50:41 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /pphcake/users/login
+Stack Trace:
+#0 /var/www/frameworks/cakephp/2.4/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/pphcak...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/pphcak...', 39, Array)
+#2 /var/www/frameworks/cakephp/2.4/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/pphcak...', 39, Array)
+#3 /var/www/frameworks/cakephp/2.4/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-29 16:50:55 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pphcake/users/login
+Stack Trace:
+#0 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-29 16:53:07 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pphcake/users/login
+Stack Trace:
+#0 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-29 16:53:12 Error: [MissingControllerException] Controller class PphusersController could not be found.
+Exception Attributes: array (
+  'class' => 'PphusersController',
+  'plugin' => NULL,
+)
+Request URL: /pphcake/pphusers/login
+Stack Trace:
+#0 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-29 16:53:31 Error: [MissingControllerException] Controller class PphusersController could not be found.
+Exception Attributes: array (
+  'class' => 'PphusersController',
+  'plugin' => NULL,
+)
+Request URL: /pphcake/pphusers/login
+Stack Trace:
+#0 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-29 16:53:59 Error: [MissingControllerException] Controller class PphusersController could not be found.
+Exception Attributes: array (
+  'class' => 'PphusersController',
+  'plugin' => NULL,
+)
+Request URL: /pphcake/pphusers/login
+Stack Trace:
+#0 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-29 16:54:20 Error: [MissingViewException] View file "/var/www/pphcake/app/View/PphlUsers/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/pphcake/app/View/PphlUsers/login.ctp',
+)
+Request URL: /pphcake/pphlUsers/login
+Stack Trace:
+#0 /var/www/frameworks/cakephp/2.4/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/frameworks/cakephp/2.4/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/frameworks/cakephp/2.4/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/frameworks/cakephp/2.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PphlUsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/pphcake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
